@@ -17,7 +17,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 
 
-// Sceret and expiry variables for encoding token
+// Secret and expiry variables for encoding token
 const secret = process.env.SECRET;
 const expiry = process.env.EXPIRY;
 
